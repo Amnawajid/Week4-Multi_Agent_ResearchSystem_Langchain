@@ -2,21 +2,28 @@
 langchain>=0.2.0
 langchain-core>=0.2.0
 langchain-community>=0.2.0
-langchain-openai>=0.1.0
-streamlit>=1.0.0
+langchain-google-genai
+# langchain-groq>=0.2.0
+langgraph>=0.2.0
 
-# Tavily Search Tool
+# Web Search
 tavily-python>=0.3.0
 
-# Web scraping
+# Web Scraping
 beautifulsoup4>=4.12.0
-readability-lxml 
+readability-lxml
 trafilatura
 requests>=2.31.0
 lxml>=5.0.0
 
-# Environment variables
+# Environment Variables
 python-dotenv>=1.0.0
 
-# Logging / debugging (optional but recommended)
+# Streamlit
+streamlit>=1.0.0
+
+# Logging / Debugging
 rich>=13.7.0
+
+# Groq Python SDK
+groq>=0.11.0

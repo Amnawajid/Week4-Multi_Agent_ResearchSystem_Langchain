@@ -8,7 +8,7 @@ Now go to project folder
  cd Week4-Multi_Agent_ResearchSystem_Langchain
 
 # 2- Create Environment (Conda)
-conda create -n langagent python=3.11 -y
+conda create -n multi_agent_langchain python=3.11 -y
 conda activate multi_agent_langchain
 
 # 3- Install Dependencies
@@ -20,8 +20,11 @@ $ git add .
 $ git commit -m "project setup and folders created"
 $ git push origin main
 
-# 4. Configure Environment Variables
+# 5  Configure Environment Variables
 Create a .env file in the project root:
 
-OPENAI_API_KEY=your_openai_api_key_here
-TAVILY_API_KEY=your_tavily_api_key_here
+add api keys i used Groq https://console.groq.com/keys and tavily
+
+Now write tools code and check it... 
+
+now write agents code
